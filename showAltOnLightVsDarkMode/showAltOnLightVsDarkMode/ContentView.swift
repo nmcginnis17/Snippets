@@ -38,11 +38,13 @@ struct ContentView: View {
                 VStack {
                     Text("Dark Mode")
                     Image(systemName: "moon")
+                        .foregroundStyle(.blue)
                 }
             } light: {
                 VStack {
                     Text("Light Mode")
-                    Image(systemName: "sun")
+                    Image(systemName: "sun.max")
+                        .foregroundStyle(.yellow)
                 }
             }
         }
